@@ -217,7 +217,7 @@ function onLocationConfirm(position) {
 
   const lat = position.coords.latitude;
   const lon = position.coords.longitude;
-  const apiUrl = `http://api.openweathermap.org/geo/1.0/reverse?lat=${lat}&lon=${lon}&appid=${apiKey}`;
+  const apiUrl = `https://api.openweathermap.org/geo/1.0/reverse?lat=${lat}&lon=${lon}&appid=${apiKey}`;
 
   axios
     .get(apiUrl)
