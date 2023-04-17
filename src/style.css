@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&display=swap");
+
+.container {
+  background: linear-gradient(
+    111.1deg,
+    rgb(0, 40, 70) -4.8%,
+    rgb(255, 115, 115) 82.7%,
+    rgb(255, 175, 123) 97.2%
+  );
+  border: 1px solid;
+  margin-top: 15px;
+}
+
+.main-city {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.main-city-name {
+  font-size: 50px;
+  font-family: playfair display;
+  color: #f2e5e5;
+  letter-spacing: 2px;
+}
+
+.sun {
+  font-size: 60px;
+  margin-top: 30px;
+  color: #ffc93c;
+}
+
+.main-temperature-c {
+  font-size: 30px;
+  font-family: Libre Franklin;
+  margin-top: 30px;
+  color: #f2e5e5;
+  letter-spacing: 2px;
+}
+
+#temperature-c {
+  text-decoration: none;
+  color: #f2e5e5;
+}
+
+#temperature-c:hover {
+  text-decoration: underline;
+}
+
+#temperature-f {
+  text-decoration: none;
+  color: #f2e5e5;
+}
+
+#temperature-f:hover {
+  color: #2b3a55;
+  text-decoration: underline;
+}
+.main-weekday {
+  font-size: 25px;
+  font-family: Libre Franklin;
+  margin-top: 20px;
+  color: #f2e5e5;
+  letter-spacing: 2px;
+}
+
+.btn-primary {
+  margin-top: 40px;
+  background: #ce7777;
+  border: 1px solid #ce7777;
+  font-family: Libre Franklin;
+  letter-spacing: 2px;
+}
+
+.btn-primary:hover {
+  background: #2b3a55;
+  border: 1px solid #2b3a55;
+  font-family: Libre Franklin;
+  letter-spacing: 2px;
+}
+
+.btn-secondary {
+  margin-top: 40px;
+  background: #ce7777;
+  border: 1px solid #ce7777;
+  font-family: Libre Franklin;
+  letter-spacing: 2px;
+}
+
+.btn-secondary:hover {
+  background: #2b3a55;
+  border: 1px solid #2b3a55;
+  font-family: Libre Franklin;
+  letter-spacing: 2px;
+}
+
+.date {
+  margin-top: 130px;
+  color: #f2e5e5;
+  font-family: Libre Franklin;
+  letter-spacing: 2px;
+}
+
+.search-bar {
+  margin-top: 10px;
+  margin-left: 15px;
+  font-family: Libre Franklin;
+  letter-spacing: 2px;
+}
+
+.search {
+  background: rgb(238, 234, 234, 0.3);
+  color: #131212;
+  border: none;
+  font-family: Libre Franklin;
+  letter-spacing: 2px;
+}
+
+.btn-search-bar {
+  background: transparent;
+  border: 2px solid #2b3a55;
+  color: #f2e5e5;
+  margin-left: 5px;
+  font-size: 15px;
+  font-weight: lighter;
+  font-family: Libre Franklin;
+}
+
+.btn-search-bar:hover {
+  background: transparent;
+  border: 2px solid #ce7777;
+  color: #f2e5e5;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Libre Franklin;
+}
+
+.weather-grid {
+  text-align: center;
+  margin-top: 25px;
+  margin-left: 15px;
+  gap: 28px;
+  font-family: Libre Franklin;
+  letter-spacing: 2px;
+}
+
+.second-city {
+  font-size: 28px;
+  padding-top: 15px;
+  font-family: playfair display;
+  letter-spacing: 0.4px;
+}
+
+.sunny {
+  font-size: 40px;
+  color: #ffc93c;
+  margin-top: 10px;
+}
+
+.cloud {
+  font-size: 30px;
+  color: #2b3a55;
+  margin-top: 15px;
+}
+
+.temperature {
+  font-size: 15px;
+  margin-top: 17px;
+  font-family: Libre Franklin;
+  letter-spacing: 2px;
+}
+
+.week-day {
+  font-size: 15px;
+  margin-top: 15px;
+  font-family: Libre Franklin;
+  letter-spacing: 2px;
+}
+
+.weather-status {
+  text-align: center;
+  justify-content: space-between;
+  font-family: playfair display;
+  letter-spacing: 2px;
+  font-size: 17px;
+  margin-top: 25px;
+}
+
+.status {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.city-time {
+  text-align: center;
+}
+
+.clock {
+  margin-top: 15px;
+  font-size: 40px;
+  color: #2b3a55;
+}
+
+.city-name {
+  font-size: 18px;
+  margin-top: 20px;
+  color: #f2e5e5;
+  letter-spacing: 2px;
+  font-family: Libre Franklin;
+}
+
+.time {
+  font-size: 17px;
+  margin-top: 25px;
+  color: #f2e5e5;
+  letter-spacing: 2px;
+  font-family: Libre Franklin;
+}
+
+.Sun {
+  margin-top: 15px;
+  font-size: 40px;
+  color: #ffc93c;
+}
+
+.temperature {
+  font-size: 18px;
+  margin-top: 20px;
+  color: #f2e5e5;
+  font-family: Libre Franklin;
+  letter-spacing: 2px;
+}
+
+.secondary-temperature {
+  font-size: 18px;
+  margin-top: 20px;
+  color: #2b3a55;
+  font-weight: bold;
+}
+
+.text-weather-status {
+  font-family: playfair display;
+  letter-spacing: 2px;
+  font-size: 20px;
+
+  color: #f2e5e5;
+}
+
+.humidade {
+  text-align: center;
+}
+
+.secondary-weather-status {
+  margin-top: 30px;
+  font-family: playfair display;
+  letter-spacing: 2px;
+}
+
+.h-percentage {
+  margin-top: 25px;
+  font-family: Libre Franklin;
+  letter-spacing: 2px;
+}
+
+.weather-stats {
+  gap: 15px;
+  font-family: Libre Franklin;
+  letter-spacing: 2px;
+}
+
+.tba {
+  width: 50%;
+  font-family: Libre Franklin;
+  letter-spacing: 2px;
+}
+
+.rain {
+  text-align: center;
+}
+
+.sunrise-sunset {
+  text-align: center;
+  font-family: playfair display;
+  letter-spacing: 2px;
+}
+
+.info-1 {
+  margin-top: 30px;
+}
+
+.secondary-time {
+  font-family: Libre Franklin;
+  letter-spacing: 2px;
+}
